@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AWS DevOps Training</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  .container {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  h1 {
-    color: #333;
-    text-align: center;
-  }
-  p {
-    color: #666;
-    line-height: 1.6;
-  }
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  .btn:hover {
-    background-color: #0056b3;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanna's Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 2em;
+        }
+        .about, .portfolio, .contact {
+            background-color: white;
+            margin: 1em auto;
+            padding: 2em;
+            border-radius: 8px;
+            max-width: 800px;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-  <h1>AWS DevOps Training by Pavan</h1>
-  <p>Welcome to our AWS DevOps training session! We'll cover various aspects of AWS and DevOps practices to enhance your skills.</p>
-  <p>Topics include:</p>
-  <ul>
-    <li>AWS Services Overview</li>
-    <li>Continuous Integration & Deployment</li>
-    <li>Infrastructure as Code</li>
-    <li>Monitoring & Logging</li>
-    <li>And much more...</li>
-  </ul>
-  <p>Ready to start your journey? Enroll now!</p>
-  <a href="#" class="btn">Enroll Now</a>
-</div>
-
-<script>
-  console.log("Node.js is integrated!");
-</script>
-
-</body>
-</html>
-
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
-
-<p>Please do follow me on instagram
-<a href="https://www.instagram.com/"www.instagram.com</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
-
-<p><em>Thank you -Pavan kalyan.</em></p>
-</body>
-</html>
+    <header>
+        <h1>Welcome to Prasanna's Web Page</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Prasanna</h2>
+        <p>Hello! I am Prasanna, a passionate developer and designer. I love creating beautiful and functional web applications. With a strong background in both front-end and back-end development, I strive to deliver the best user experiences through my projects.</p>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of my recent works:</p>
+        <img src="portfolio1.jpg" alt="Project 1">
+        <img src="portfolio2.jpg" alt="Project 2"
